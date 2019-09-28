@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>V-HTML</title>
+</head>
+<body>
+    <div id="app">
+        <h1>{{ title }}</h1>
+        <p v-html="description"></p>
+    </div>
+    
+    <!-- versão de produção, otimizada para tamanho e velocidade -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                title: 'Tutorial VueJS',
+                description: '<strong>Conteúdo do artigo</strong>'
+            }
+        })
+    </script>
+</body>
+</html>
