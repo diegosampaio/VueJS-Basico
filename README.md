@@ -5,5 +5,6 @@ Comandos Básicos de VueJS
 - Two Way Data Binding
 - Diretiva v-once
 - Diretiva v-html
-- Eventos
-
+- Eventos Parametros
+- Eventos Teclado
+- Propriedades Computadas
